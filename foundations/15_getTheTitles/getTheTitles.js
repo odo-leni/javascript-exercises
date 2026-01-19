@@ -1,5 +1,6 @@
-const getTheTitles = function() {
-
+const getTheTitles = function (array) {
+  const result = array.map(b => b.title);
+  return result;
 };
 
 // Do not edit below this line
